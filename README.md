@@ -1,5 +1,6 @@
 Bulk SMS Sender
-Overview
+
+Overview:
 
 This Python script allows you to send bulk SMS messages using the Twilio API. You can customize the recipients and the message to be sent.
 Prerequisites
@@ -13,22 +14,26 @@ Before using this script, make sure you have the following:
         Auth Token
         Twilio phone number
 
-Installation
+Installation:
 
     Clone this repository to your local machine.
 
-    bash
+    bash:
 
 git clone https://github.com/NanaBright/bulk_sms_I.git
-cd bulk_sms
+
+cd bulk_sms_I
+
 
 Install the required Python libraries.
 
-bash
+
+bash:
 
     pip install requests
 
-Configuration
+
+Configuration:
 
 Open the bulk_sms_sender.py file in a text editor and replace the following placeholders with your Twilio credentials:
 
@@ -38,7 +43,7 @@ account_sid = 'your_account_sid'
 auth_token = 'your_auth_token'
 from_number = 'your_twilio_phone_number'
 
-Usage
+Usage:
 
     Edit the to_numbers list in the script to include the phone numbers of the recipients.
 
